@@ -16,9 +16,7 @@ app.use(errorHandler);
 app.use(
   cors({
     origin: [
-      "http://localhost:5173",
-      "https://sales-leads-crm-8mqb.vercel.app",
-      "https://zsales-leads-n98ciy6z1-jvsiddharths-projects.vercel.app/api"
+      "*"
     ],
 
     credentials: true,
