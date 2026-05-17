@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  color-scheme: light;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #f8fafc; /* Light mode base */
+  color: #0f172a;      /* Light mode text */
+  font-family: "SF Pro Display", "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark mode overrides for the body */
+.dark body {
+  background: #0f172a; /* Dark mode base */
+  color: #f8fafc;      /* Dark mode text */
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+table {
+  border-collapse: collapse;
+}
