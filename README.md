@@ -10,14 +10,14 @@ A production-style full-stack Lead Management CRM built using the MERN stack wit
 Add deployed frontend URL here.
 
 ```txt
-https://your-frontend-url.vercel.app
+https://sales-leads-crm-8mqb.vercel.app/)
 ```
 
 ## Backend API
 Add deployed backend URL here.
 
 ```txt
-https://your-backend-url.onrender.com
+https://sales-leads-crm.onrender.com
 ```
 
 ---
